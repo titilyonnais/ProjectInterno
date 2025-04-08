@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.top20 {
+    margin-top: 20px;
+}
+
+/* HEADER */
+
+.headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px 0;
+    position: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+.logoLink img {
+    width: 140px;
+}
+
+.navList {
+    display: flex;
+    gap: 35px;
+}
+
+.navItem {
+    list-style: none;
+}
+
+.navLink {
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+}
+
+/* SECTION HERO */
+
+.hero {
+    height: 100vh;
+    background-image: url("assets/Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom-left-radius: 150px;
+}
+
+.heroContent {
+    width: 100%;
+}
+
+.heroContent h1 {
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+}
+
+.heroContent p {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+}
+
+.heroBtn {
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 23px 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.heroBtn span {
+    font-weight: 100;
+    color: #CDA274;
+}
+
+/* SECTION WORK */
+
+.work {
+    margin: 120px;
+}
+
+.workContent {
+    width: 26%;
+}
+
+.workContent h3 {
+    font-size: 20px;
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+.workContent p {
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+}
+
+/* SECTION ABOUTUS */
+
+.aboutUs {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUsImg {
+    width: 47%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 300px 0 100px;
+}
+
+.aboutUsContainer {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.aboutUsContainer h2 {
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #292F36;
+}
+
+.aboutUsParagraph {
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    margin: 40px 0;
+}
+
+.phoneNumberText .number {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+}
+
+.phoneNumberText p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+}
+
+.phoneNumberImage {
+    background-color: #F4F0EC;
+    padding: 20px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.phoneNumberContainer img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.aboutUsBtn {
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 23px 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.aboutUsBtn span {
+    font-weight: 100;
+    color: #CDA274;
+}
+
+/* SECTION TESTIMONIAL */
+
+.testimonial {
+    background-color: #F4F0EC;
+}
+
+.testimonial h2 {
+    text-align: center;
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #292F36;
+}
+
+.testimonialContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.p1 {
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 18px;
+}
+
+.p2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+}
+
+.p3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+}
