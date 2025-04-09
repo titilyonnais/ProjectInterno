@@ -98,7 +98,6 @@
     border-radius: 100px;
 }
 
-
 /* ////////////////////////////////// */
 /* GAP */
 /* ////////////////////////////////// */
@@ -207,6 +206,10 @@
     width: 47%;
 }
 
+.width50 {
+    width: 50%;
+}
+
 .width100 {
     width: 100%;
 }
@@ -264,6 +267,8 @@
 .weight700 {
     font-weight: 700;
 }
+
+/* CENTER */
 
 .textCenter {
     text-align: center;
