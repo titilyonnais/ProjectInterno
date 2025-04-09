@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-        name="viewport">
+          name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Accueil - Interno</title>
     <link href="style.css" rel="stylesheet">
@@ -12,232 +12,240 @@
 
 <body>
 
-    <!-- HEADER -->
+<!-- HEADER -->
 
-    <div class="headerContainer flex justifyCenter alignCenter width100">
-        <header class="container flex spaceBetween alignCenter width100">
-            <a class="logoLink" href="index.html"><img alt="logo du site Inferno" class="logo"
-                    src="assets/Logo.png" /></a>
-            <nav class="navbar">
-                <ul class="navList flex">
-                    <li class="navItem"><a class="navLink fontJost fontSize16" href="#">Accueil</a></li>
-                    <li class="navItem"><a class="navLink fontJost fontSize16" href="#">Services</a></li>
-                    <li class="navItem"><a class="navLink fontJost fontSize16" href="#">Projets</a></li>
-                    <li class="navItem"><a class="navLink fontJost fontSize16" href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+<div class="headerContainer flex justifyCenter alignCenter width100 paddingtb30">
+    <header class="container flex spaceBetween alignCenter width100">
+        <a class="logoLink" href="index.html"><img alt="logo du site Inferno" class="logo"
+                                                   src="assets/Logo.png"/></a>
+        <nav class="navbar">
+            <ul class="navList flex gap35">
+                <li class="navItem"><a class="navLink fontJost" href="#">Accueil</a></li>
+                <li class="navItem"><a class="navLink fontJost" href="#">Services</a></li>
+                <li class="navItem"><a class="navLink fontJost" href="#">Projets</a></li>
+                <li class="navItem"><a class="navLink fontJost" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+<main>
+    <section class="hero flex justifyStart alignCenter">
+        <div class="heroContent container width100">
+            <h1 class="heroText fontDMSerifDisplay size65 weight400">Rendez votre <br> maison unique</h1>
+            <p class="fontJost">Nous croyons que chaque espace a le potentiel d'être <br> exceptionnel.</p>
+            <a class="onlyBtn fontJost mtop20 radius15 inlineBlock" href="">Construisons votre projet <span
+                    class="weight400">➜</span></a>
+        </div>
+    </section>
+
+    <section class="work margin120">
+        <div class="container flex spaceBetween">
+            <div class="width26">
+                <h3 class="size18 fontDMSerifDisplay weight400 textCenter mbottom10">Vision</h3>
+                <p class="fontJost">Notre processus commence par comprendre votre vision. Nous écoutons
+                    attentivement vos idées, vos
+                    rêves et vos besoins pour créer un design qui vous correspond.</p>
+            </div>
+            <div class="width26">
+                <h3 class="size18 fontDMSerifDisplay weight400 textCenter mbottom10">Créativité</h3>
+                <p class="fontJost">Notre équipe de designers explore des concepts uniques pour chaque
+                    projet, en veillant à ce que
+                    chaque détail soit une expression authentique de votre personnalité.</p>
+            </div>
+            <div class="width26">
+                <h3 class="size18 fontDMSerifDisplay weight400 textCenter mbottom10">Exécution Impeccable</h3>
+                <p class="fontJost">Nous nous engageons à fournir des résultats exceptionnels. Notre
+                    équipe supervise chaque étape du
+                    processus, de la conception initiale à l'installation finale.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutUs container flex spaceBetween width100 margin120">
+        <div class="aboutUsContainer flex flexColumn justifyCenter alignStart width47">
+            <h2 class="fontDMSerifDisplay weight400 size40">Nous créons l'art <br> De la vie élégante</h2>
+            <p class="aboutUsParagraph fontJost margintb40">Transformez votre maison en un espace élégant <br> et
+                fonctionnel avec
+                nos
+                services
+                de design <br> résidentiel sur
+                mesure.</p>
+            <div class="phoneNumberContainer flex alignCenter">
+                <div class="phoneNumberImage flex alignCenter justifyCenter fitCover radius100 mright10 bgBeige">
+                    <img alt="icone d'un téléphone" src="assets/Call.png">
+                </div>
+                <div class="phoneNumberText">
+                    <p class="number fontJost weight700 size18">012345678</p>
+                    <p class="fontJost">Apellez-nous n'importe quand</p>
+                </div>
+            </div>
+            <a class="onlyBtn fontJost weight600 radius15 mtop40 inlineBlock" href="#">Obtenez un devis gratuit <span
+                    class="weight400">➜</span></a>
+        </div>
+        <img alt="image d'illustration d'une cuisine" class="aboutUsImg width47 height100 fitCover"
+             src="assets/image-article.jpg">
+    </section>
+
+    <section class="testimonial flex alignCenter bgBeige">
+        <div class="testimonialDiv container">
+            <h2 class="size40 weight400 fontDMSerifDisplay textCenter mbottom30">Ils nous ont fait confiance</h2>
+            <div class="flex spaceBetween">
+                <div class="testimonialContent radius20 width25 padding30">
+                    <div class="testimonialDescription flex alignCenter gap20 mbottom20">
+                        <img alt="" src="assets/user3.png">
+                        <div class="testimonialText">
+                            <p class="size18 fontDMSerifDisplay mbottom5">Nattasha Mith</p>
+                            <p class="fontJost">Lyon</p>
+                        </div>
+                    </div>
+                    <p class="fontJost">J'ai eu le plaisir de travailler avec Interno sur la rénovation complète de ma
+                        maison,
+                        et
+                        je suis
+                        extrêmement satisfaite du résultat !</p>
+                </div>
+                <div class="testimonialContent radius20 width25 padding30">
+                    <div class="testimonialDescription flex alignCenter gap20 mbottom20">
+                        <img alt="" src="assets/user2.png">
+                        <div class="testimonialText">
+                            <p class="size18 fontDMSerifDisplay mbottom5">Mary Galario</p>
+                            <p class="fontJost">Agen</p>
+                        </div>
+                    </div>
+                    <p class="fontJost">Nous avons fait appel à leur équipe pour concevoir l'intérieur de notre nouveau
+                        bureau, et
+                        le
+                        résultat est incroyable.</p>
+                </div>
+                <div class="testimonialContent radius20 width25 padding30">
+                    <div class="testimonialDescription flex alignCenter gap20 mbottom20">
+                        <img alt="" src="assets/user1.png">
+                        <div class="testimonialText">
+                            <p class="size18 fontDMSerifDisplay mbottom5">Benny Roll</p>
+                            <p class="fontJost">Paris</p>
+                        </div>
+                    </div>
+                    <p class="fontJost">Une expérience formidable ! Une équipe de designers talentueuse mais également
+                        très à
+                        l'écoute des
+                        besoins du client.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="clientLogo flex justifyCenter">
+        <div class="clientLogoContainer flex alignCenter">
+            <img alt="logo Modern Design" class="marginrl40" src="assets/moderne-home.png">
+            <img alt="logo Vintage Interiors" class="marginrl40" src="assets/vintage.png">
+            <img alt="logo Brand" class="marginrl40" src="assets/brand.png">
+            <img alt="logo Nature Home" class="marginrl40" src="assets/nature-home.png">
+            <img alt="logo Classic Design" class="marginrl40" src="assets/classic-design.png">
+        </div>
+    </section>
+
+    <section class="project container flex flexColumn alignCenter">
+        <h2 class="fontDMSerifDisplay size40 weight400 mbottom10">Nos projets</h2>
+        <p class="fontJost">Explorez notre portfolio pour découvrir l’univers interno.</p>
+        <div class="projectContainer flex spaceBetween mtop100">
+            <div class="mbottom100">
+                <img alt="Photo d'une cuisine" class="projectImage fitCover" id="projectImage1"
+                     src="assets/cuisine.jpg">
+                <div class="projectTextContainer flex spaceBetween alignCenter mtop20">
+                    <div class="projectText">
+                        <h4 class="fontDMSerifDisplay size18 weight400 mbottom5">Cuisine</h4>
+                        <p class="fontJost">Decor / Artchitecture</p>
+                    </div>
+                    <a class="projectLink flex justifyCenter alignCenter radius50 bgBeige" href="#">
+                        <img alt="flèche" class="fitCover" src="assets/chevron.png">
+                    </a>
+                </div>
+            </div>
+            <div class="mbottom100">
+                <img alt="Photo d'une entrée et garage" class="projectImage" id="projectImage2"
+                     src="assets/entree-et-garage.jpg">
+                <div class="projectTextContainer flex spaceBetween alignCenter mtop20">
+                    <div class="projectText">
+                        <h4 class="fontDMSerifDisplay size18 weight400 mbottom5">Entrée et garage</h4>
+                        <p class="fontJost">Decor / Artchitecture</p>
+                    </div>
+                    <a class="projectLink flex justifyCenter alignCenter radius50" href="#">
+                        <img alt="flèche" class="fitCover" src="assets/chevron.png">
+                    </a>
+                </div>
+            </div>
+            <div class="mbottom100">
+                <img alt="Photo d'un bureau et chambre" class="projectImage" id="projectImage3"
+                     src="assets/bureau-et-chambre.jpg">
+                <div class="projectTextContainer flex spaceBetween alignCenter mtop20">
+                    <div class="projectText">
+                        <h4 class="fontDMSerifDisplay size18 weight400 mbottom5">Bureau et chambre</h4>
+                        <p class="fontJost">Decor / Artchitecture</p>
+                    </div>
+                    <a class="projectLink flex justifyCenter alignCenter radius50" href="#">
+                        <img alt="flèche" class="fitCover" src="assets/chevron.png">
+                    </a>
+                </div>
+            </div>
+            <div class="mbottom100">
+                <img alt="Photo d'un cabinet et salon" class="projectImage" id="projectImage4"
+                     src="assets/cabinet-et-salon.jpg">
+                <div class="projectTextContainer flex spaceBetween alignCenter mtop20">
+                    <div class="projectText">
+                        <h4 class="fontDMSerifDisplay size18 weight400 mbottom5">Cabinet et salon</h4>
+                        <p class="fontJost">Decor / Artchitecture</p>
+                    </div>
+                    <a class="projectLink flex justifyCenter alignCenter radius50" href="#">
+                        <img alt="flèche" class="fitCover" src="assets/chevron.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact flex flexColumn alignCenter justifyCenter">
+        <h2 class="fontDMSerifDisplay size40 weight400">Rejoignez la communauté interno</h2>
+        <p class="fontJost">john.doe@gmail.com</p>
+        <input aria-label="john.doe@gmail.com" class="contactText radius10" placeholder="john.doe@gmail.com"
+               type="text">
+    </section>
+</main>
+<footer class="flex flexColumn">
+    <div class="footerContainer container flex justifyStart width100 gap100 paddingtb90">
+        <div class="footerLeft">
+            <a class="logoLink" href="index.html"><img alt="logo du site Inferno" class="logo mbottom20"
+                                                       src="assets/Logo.png"/></a>
+            <p class="mbottom20 fontJost">Prêt à tout changer ? Contactez-nous dès <br> aujourd'hui pour planifier un
+                rendez-<br>vous !</p>
+            <div class="socialContainer flex gap50">
+                <a class="socialLink" href="#">
+                    <img alt="logo facebook" src="assets/facebook.png">
+                </a>
+                <a class="socialLink" href="#">
+                    <img alt="logo twitter" src="assets/twitter.png">
+                </a>
+                <a class="socialLink" href="#">
+                    <img alt="logo linkedin" src="assets/linkedin.png">
+                </a>
+                <a class="socialLink" href="#">
+                    <img alt="logo instagram" src="assets/insta.png">
+                </a>
+            </div>
+        </div>
+        <div class="footerRight">
+            <h3 class="mbottom30 size18 fontDMSerifDisplay weight400">Contact</h3>
+            <p class="mbottom30 fontJost">55 rue des coquelicots <br> 69000 LYON</p>
+            <p class="mbottom30 fontJost">contact@interno.com</p>
+            <p class="mbottom30 fontJost">04567890</p>
+        </div>
     </div>
-
-    <main>
-        <section class="hero flex justifyStart alignCenter">
-            <div class="heroContent container width100">
-                <h1 class="heroText fontDMSerifDisplay fontSize65 fontWeight400">Rendez votre <br> maison unique</h1>
-                <p class="fontJost">Nous croyons que chaque espace a le potentiel d'être <br> exceptionnel.</p>
-                <a class="heroBtn fontJost fontSize16 top20" href="">Construisons votre projet <span>➜</span></a>
-            </div>
-        </section>
-
-        <section class="work">
-            <div class="flex spaceBetween container">
-                <div class="workContent">
-                    <h3 class="fontSize18 fontDMSerifDisplay">Vision</h3>
-                    <p class="fontJost">Notre processus commence par comprendre votre vision. Nous écoutons
-                        attentivement vos idées, vos
-                        rêves et vos besoins pour créer un design qui vous correspond.</p>
-                </div>
-                <div class="workContent">
-                    <h3 class="fontSize18 fontDMSerifDisplay">Créativité</h3>
-                    <p class="fontJost">Notre équipe de designers explore des concepts uniques pour chaque
-                        projet, en veillant à ce que
-                        chaque détail soit une expression authentique de votre personnalité.</p>
-                </div>
-                <div class="workContent">
-                    <h3 class="fontSize18 fontDMSerifDisplay">Exécution Impeccable</h3>
-                    <p class="fontJost">Nous nous engageons à fournir des résultats exceptionnels. Notre
-                        équipe supervise chaque étape du
-                        processus, de la conception initiale à l'installation finale.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="aboutUs container flex spaceBetween width100">
-            <div class="aboutUsContainer flex flexColumn flexWrap justifyCenter alignStart width47 fontSize40">
-                <h2 class="fontDMSerifDisplay fontWeight400 fontSize40">Nous créons l'art <br> De la vie élégante</h2>
-                <p class="aboutUsParagraph fontJost fontWeight16">Transformez votre maison en un espace élégant <br> et fonctionnel avec nos
-                    services
-                    de design <br> résidentiel sur
-                    mesure.</p>
-                <div class="phoneNumberContainer flex alignCenter">
-                    <div class="phoneNumberImage">
-                        <img alt="icone d'un téléphone" src="assets/Call.png">
-                    </div>
-                    <div class="phoneNumberText">
-                        <p class="number fontJost fontWeight700 fontSize18">012345678</p>
-                        <p>Apellez-nous n'importe quand</p>
-                    </div>
-                </div>
-                <a class="aboutUsBtn" href="#">Obtenez un devis gratuit <span>➜</span></a>
-            </div>
-            <img alt="image d'illustration d'une cuisine" class="aboutUsImg width47" src="assets/image-article.jpg">
-        </section>
-
-        <section class="testimonial">
-            <div class="testimonialDiv container">
-                <h2>Ils nous ont fait confiance</h2>
-                <div class="testimonialContainer">
-                    <div class="testimonialContent">
-                        <div class="testimonialDescription">
-                            <img alt="" src="assets/user3.png">
-                            <div class="testimonialText">
-                                <p class="p1">Nattasha Mith</p>
-                                <p class="p2">Lyon</p>
-                            </div>
-                        </div>
-                        <p class="p3">J'ai eu le plaisir de travailler avec Interno sur la rénovation complète de ma
-                            maison,
-                            et
-                            je suis
-                            extrêmement satisfaite du résultat !</p>
-                    </div>
-                    <div class="testimonialContent">
-                        <div class="testimonialDescription">
-                            <img alt="" src="assets/user2.png">
-                            <div class="testimonialText">
-                                <p class="p1">Mary Galario</p>
-                                <p class="p2">Agen</p>
-                            </div>
-                        </div>
-                        <p class="p3">Nous avons fait appel à leur équipe pour concevoir l'intérieur de notre nouveau
-                            bureau, et
-                            le
-                            résultat est incroyable.</p>
-                    </div>
-                    <div class="testimonialContent">
-                        <div class="testimonialDescription">
-                            <img alt="" src="assets/user1.png">
-                            <div class="testimonialText">
-                                <p class="p1">Benny Roll</p>
-                                <p class="p2">Paris</p>
-                            </div>
-                        </div>
-                        <p class="p3">Une expérience formidable ! Une équipe de designers talentueuse mais également
-                            très à
-                            l'écoute des
-                            besoins du client.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="clientLogo">
-            <div class="clientLogoContainer flex alignCenter">
-                <img alt="logo Modern Design" src="assets/moderne-home.png">
-                <img alt="logo Vintage Interiors" src="assets/vintage.png">
-                <img alt="logo Brand" src="assets/brand.png">
-                <img alt="logo Nature Home" src="assets/nature-home.png">
-                <img alt="logo Classic Design" src="assets/classic-design.png">
-            </div>
-        </section>
-
-        <section class="project container">
-            <h2>Nos projets</h2>
-            <p>Explorez notre portfolio pour découvrir l’univers interno.</p>
-            <div class="projectContainer">
-                <div class="projectContent">
-                    <img alt="Photo d'une cuisine" class="projectImage" id="projectImage1" src="assets/cuisine.jpg">
-                    <div class="projectTextContainer">
-                        <div class="projectText">
-                            <h4>Cuisine</h4>
-                            <p>Decor / Artchitecture</p>
-                        </div>
-                        <a class="projectLink" href="#">
-                            <img alt="flèche" src="assets/chevron.png">
-                        </a>
-                    </div>
-                </div>
-                <div class="projectContent">
-                    <img alt="Photo d'une entrée et garage" class="projectImage" id="projectImage2"
-                        src="assets/entree-et-garage.jpg">
-                    <div class="projectTextContainer">
-                        <div class="projectText">
-                            <h4>Entrée et garage</h4>
-                            <p>Decor / Artchitecture</p>
-                        </div>
-                        <a class="projectLink" href="#">
-                            <img alt="flèche" src="assets/chevron.png">
-                        </a>
-                    </div>
-                </div>
-                <div class="projectContent">
-                    <img alt="Photo d'un bureau et chambre" class="projectImage" id="projectImage3"
-                        src="assets/bureau-et-chambre.jpg">
-                    <div class="projectTextContainer">
-                        <div class="projectText">
-                            <h4>Bureau et chambre</h4>
-                            <p>Decor / Artchitecture</p>
-                        </div>
-                        <a class="projectLink" href="#">
-                            <img alt="flèche" src="assets/chevron.png">
-                        </a>
-
-                    </div>
-                </div>
-                <div class="projectContent">
-                    <img alt="Photo d'un cabinet et salon" class="projectImage" id="projectImage4"
-                        src="assets/cabinet-et-salon.jpg">
-                    <div class="projectTextContainer">
-                        <div class="projectText">
-                            <h4>Cabinet et salon</h4>
-                            <p>Decor / Artchitecture</p>
-                        </div>
-                        <a class="projectLink" href="#">
-                            <img alt="flèche" src="assets/chevron.png">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="contact">
-            <h2>Rejoignez la communauté interno</h2>
-            <p>john.doe@gmail.com</p>
-            <input aria-label="john.doe@gmail.com" class="contactText" placeholder="john.doe@gmail.com" type="text">
-        </section>
-    </main>
-    <footer>
-        <div class="footerContainer container">
-            <div class="footerLeft">
-                <a class="logoLink" href="index.html"><img alt="logo du site Inferno" class="logo marginBottom20"
-                        src="assets/Logo.png" /></a>
-                <p class="marginBottom20">Prêt à tout changer ? Contactez-nous dès <br> aujourd'hui pour planifier un
-                    rendez-<br>vous !</p>
-                <div class="socialContainer">
-                    <a class="socialLink" href="#">
-                        <img alt="logo facebook" src="assets/facebook.png">
-                    </a>
-                    <a class="socialLink" href="#">
-                        <img alt="logo twitter" src="assets/twitter.png">
-                    </a>
-                    <a class="socialLink" href="#">
-                        <img alt="logo linkedin" src="assets/linkedin.png">
-                    </a>
-                    <a class="socialLink" href="#">
-                        <img alt="logo instagram" src="assets/insta.png">
-                    </a>
-                </div>
-            </div>
-            <div class="footerRight">
-                <h3 class="marginBottom30">Contact</h3>
-                <p class="marginBottom30">55 rue des coquelicots <br> 69000 LYON</p>
-                <p class="marginBottom30">contact@interno.com</p>
-                <p class="marginBottom30">04567890</p>
-            </div>
-        </div>
-        <div class="copyright">
-            <p class="footerCopyright">Copyright © Interno | Designed by Victorflow Templates - Powered by Webflow</p>
-        </div>
-    </footer>
+    <div class="copyright width100 paddingtb40">
+        <p class="footerCopyright fontJost textCenter">Copyright © Interno | Designed by Victorflow Templates - Powered
+            by
+            Webflow</p>
+    </div>
+</footer>
 
 </body>
 
