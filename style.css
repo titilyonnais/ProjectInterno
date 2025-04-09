@@ -1,5 +1,13 @@
+/* ////////////////////////////////// */
+/* IMPORTED FONTS */
+/* ////////////////////////////////// */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ////////////////////////////////// */
+/* RESET CSS */
+/* ////////////////////////////////// */
 
 * {
     box-sizing: border-box;
@@ -8,7 +16,9 @@
     text-decoration: none;
 }
 
+/* ////////////////////////////////// */
 /* FLEX BOX */
+/* ////////////////////////////////// */
 
 .flex {
     display: flex;
@@ -19,20 +29,20 @@
     justify-content: space-between;
 }
 
-.alignCenter {
-    align-items: center;
-}
-
-.alignStart {
-    align-items: flex-start;
-}
-
 .justifyCenter {
     justify-content: center;
 }
 
 .justifyStart {
     justify-content: flex-start;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.alignStart {
+    align-items: flex-start;
 }
 
 .flexWrap {
@@ -43,20 +53,56 @@
     flex-direction: column;
 }
 
-/* END FLEX BOX */
+/* ////////////////////////////////// */
+/* CONTAINER */
+/* ////////////////////////////////// */
 
 .container {
     max-width: 1200px;
     margin: auto;
 }
 
+/* ////////////////////////////////// */
+/* MARGIN */
+/* ////////////////////////////////// */
+
 .top20 {
     margin-top: 20px;
+}
+
+/* ////////////////////////////////// */
+/* PADDING */
+/* ////////////////////////////////// */
+
+
+
+
+
+
+/* ////////////////////////////////// */
+/* WIDTH */
+/* ////////////////////////////////// */
+
+.width47 {
+    width: 47%;
 }
 
 .width100 {
     width: 100%;
 }
+
+/* ////////////////////////////////// */
+/* HEIGHT */
+/* ////////////////////////////////// */
+
+
+
+
+/* ////////////////////////////////// */
+/* FONT */
+/* ////////////////////////////////// */
+
+/* FONT FAMILY */
 
 .fontJost {
     font-family: 'Jost', sans-serif;
@@ -66,15 +112,41 @@
     font-family: 'DM Serif Display', sans-serif;
 }
 
-.fontSize16 {
-    font-size: 16px;
-}
+/* FONT SIZE */
 
 .fontSize18 {
     font-size: 18px;
 }
 
+.fontSize40 {
+    font-size: 40px;
+}
+
+.fontSize65 {
+    font-size: 65px;
+}
+
+/* FONT WEIGHT */
+
+.fontWeight400 {
+    font-weight: 400;
+}
+
+.fontWeight500 {
+    font-weight: 500;
+}
+
+.fontWeight600 {
+    font-weight: 600;
+}
+
+.fontWeight700 {
+    font-weight: 700;
+}
+
+/* ////////////////////////////////// */
 /* HEADER */
+/* ////////////////////////////////// */
 
 .headerContainer {
     background-color: white;
@@ -96,8 +168,6 @@
 
 .navLink {
     color: black;
-    font-family: 'Jost', sans-serif;
-    font-size: 16px;
 }
 
 /* SECTION HERO */
@@ -108,16 +178,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-left-radius: 150px;
-}
-
-.heroContent h1 {
-    font-weight: 400;
-    font-size: 65px;
-}
-
-.heroContent p {
-    font-family: 'Jost', sans-serif;
-    font-size: 16px;
 }
 
 .heroBtn {
@@ -144,7 +204,7 @@
     width: 26%;
 }
 
-/* SECTION ABOUTUS */
+/* SECTION ABOUT US */
 
 .aboutUs {
     height: 80vh;
@@ -152,34 +212,18 @@
 }
 
 .aboutUsImg {
-    width: 47%;
     height: 100%;
     object-fit: cover;
     border-radius: 0 300px 0 100px;
 }
 
-.aboutUsContainer {
-    width: 47%;
-}
-
 .aboutUsContainer h2 {
-    font-family: 'DM Serif Display', sans-serif;
-    font-size: 40px;
-    font-weight: 400;
     color: #292F36;
 }
 
 .aboutUsParagraph {
     color: #4D5053;
-    font-family: 'Jost', sans-serif;
-    font-size: 16px;
     margin: 40px 0;
-}
-
-.phoneNumberText .number {
-    font-size: 18px;
-    font-weight: 700;
-    font-family: 'Jost', sans-serif;
 }
 
 .phoneNumberText p {
