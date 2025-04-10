@@ -465,22 +465,337 @@
 }
 
 
-
 /* ////////////////////////////////// */
 /* RESPONSIVE */
 /* ////////////////////////////////// */
 
 /*@media (max-width: 599px)*/
 
-@media (min-width: 600px) and (max-width: 699px) {
+@media (min-width: 600px) and (max-width: 800px) {
     .container {
         max-width: 500px;
     }
+
+    .onlyBtn {
+        padding: 10px 7px;
+        font-weight: 400;
+    }
+
+    .logoLink img {
+        width: 75px;
+    }
+
+    /* TEXT SIZE */
+    .title1 {
+        font-size: 2.4rem;
+    }
+
+    .title2 {
+        font-size: 1.8rem;
+    }
+
+    .title3 {
+        font-size: 1rem;
+    }
+
+    .title4 {
+        font-size: 0.8rem;
+    }
+
+    .paragraph,
+    .onlyBtn,
+    .navLink {
+        font-size: 0.8rem;
+    }
+
+    /* HEADER */
+    .headerContainer {
+        padding: 15px 0;
+    }
+
+    /* HERO */
+    .hero {
+        height: 100vh;
+        min-height: 450px;
+    }
+
+    /* WORK */
+    .work {
+        margin: 50px 0;
+    }
+
+    .workContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .workContent {
+        width: 50%;
+    }
+
+    /* ABOUT US */
+    .aboutUs {
+        height: 50vh;
+        min-height: 400px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .aboutUsImg {
+        display: none;
+    }
+
+    .phoneNumberImage {
+        width: 43px;
+        height: 43px;
+    }
+
+    .phoneNumberContainer img {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* TESTIMONIAL */
+    .testimonial {
+        height: 120vh;
+        min-height: 700px;
+    }
+
+    .testimonialDiv h2 {
+        margin-top: 20px;
+    }
+
+    .testimonialCards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonialContent {
+        width: 50%;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+
+    .testimonialPhoto {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* CLIENT LOGO */
+    .clientLogo {
+        height: 70vh;
+        min-height: 400px;
+    }
+
+    .clientLogoContainer {
+        flex-direction: column;
+        gap: 50px 0;
+        margin-top: 40px;
+    }
+
+    .clientLogoContainer img {
+        width: 70px;
+    }
+
+    /* PROJECT */
+    .project {
+        margin-top: 30px;
+    }
+
+    .projectContainer {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .projectChild {
+        margin-bottom: 30px;
+    }
+
+    .projectImage {
+        height: 290px;
+    }
+
+    /* CONTACT */
+    .contact {
+        height: 35vh;
+        min-height: 220px;
+    }
+
+    /* FOOTER */
+    .footerContainer {
+        padding: 25px 0;
+    }
+
+    .socialContainer {
+        gap: 35px;
+    }
+
+    .footerLeft p {
+        margin-bottom: 15px;
+    }
+
+    .logoFooter {
+        margin-bottom: 15px;
+    }
+
+    .footerRight h3 {
+        margin-bottom: 15px;
+    }
+
+    .footerRight p {
+        margin-bottom: 15px;
+    }
+
+    .copyright {
+        padding: 25px 0;
+    }
 }
 
-@media (min-width: 700px) and (max-width: 899px) {
+@media (min-width: 800px) and (max-width: 900px) {
+
+    /* ---GENERAL--- */
     .container {
-        max-width: 600px;
+        max-width: 650px;
+    }
+
+    .onlyBtn {
+        padding: 12px 9px;
+        font-weight: 400;
+    }
+
+    .logoLink img {
+        width: 80px;
+    }
+
+    /* TEXT SIZE */
+    .title1 {
+        font-size: 2.7rem;
+    }
+
+    .title2 {
+        font-size: 2.1rem;
+    }
+
+    .title3 {
+        font-size: 1.1rem;
+    }
+
+    .title4 {
+        font-size: 1rem;
+    }
+
+    .paragraph,
+    .onlyBtn,
+    .navLink {
+        font-size: 0.9rem;
+    }
+
+    /* HEADER */
+    .headerContainer {
+        padding: 20px 0;
+    }
+
+    /* HERO */
+    .hero {
+        height: 100vh;
+        min-height: 450px;
+    }
+
+    /* WORK */
+    .work {
+        margin: 50px 0;
+    }
+
+    /* ABOUT US */
+    .aboutUs {
+        height: 50vh;
+        min-height: 400px;
+    }
+
+    .phoneNumberImage {
+        width: 47px;
+        height: 47px;
+    }
+
+    .phoneNumberContainer img {
+        width: 17px;
+        height: 17px;
+    }
+
+    /* TESTIMONIAL */
+    .testimonial {
+        height: 50vh;
+        min-height: 400px;
+    }
+
+    .testimonialContent {
+        width: 31%;
+        padding: 15px;
+    }
+
+    .testimonialPhoto {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* CLIENT LOGO */
+    .clientLogo {
+        height: 20vh;
+        min-height: 120px;
+    }
+
+    .clientLogoContainer img {
+        width: 50px;
+    }
+
+    /* PROJECT */
+    .projectContainer {
+        margin-top: 30px;
+    }
+
+    .projectLink {
+        height: 45px;
+        width: 45px;
+    }
+
+    .projectLink img {
+        width: 19px;
+        height: 19px;
+    }
+
+    /* CONTACT */
+    .contact {
+        height: 35vh;
+        min-height: 220px;
+    }
+
+    /* FOOTER */
+    .footerContainer {
+        padding: 25px 0;
+    }
+
+    .socialContainer {
+        gap: 35px;
+    }
+
+    .footerLeft p {
+        margin-bottom: 15px;
+    }
+
+    .logoFooter {
+        margin-bottom: 15px;
+    }
+
+    .footerRight h3 {
+        margin-bottom: 15px;
+    }
+
+    .footerRight p {
+        margin-bottom: 15px;
+    }
+
+    .copyright {
+        padding: 25px 0;
     }
 }
 
@@ -523,26 +838,22 @@
     }
 
     /* HEADER */
-
     .headerContainer {
         padding: 25px 0;
     }
 
     /* HERO */
-
     .hero {
         height: 100vh;
         min-height: 500px;
     }
 
     /* WORK */
-
     .work {
         margin: 60px 0;
     }
 
     /* ABOUT US */
-
     .aboutUs {
         height: 50vh;
         min-height: 460px;
@@ -575,7 +886,6 @@
     }
 
     /* CLIENT LOGO */
-
     .clientLogo {
         height: 20vh;
         min-height: 140px;
@@ -586,7 +896,6 @@
     }
 
     /* PROJECT */
-
     .projectContainer {
         margin-top: 40px;
     }
@@ -610,16 +919,30 @@
     }
 
     /* CONTACT */
-
     .contact {
         height: 35vh;
         min-height: 250px;
     }
 
     /* FOOTER */
-
     .footerContainer {
-        padding: 30px 0;
+        padding: 35px 0;
+    }
+
+    .socialContainer {
+        gap: 40px;
+    }
+
+    .footerLeft p {
+        margin-bottom: 20px;
+    }
+
+    .footerRight h3 {
+        margin-bottom: 20px;
+    }
+
+    .footerRight p {
+        margin-bottom: 20px;
     }
 
     .copyright {
@@ -666,20 +989,17 @@
     }
 
     /* HEADER */
-
     .headerContainer {
         padding: 25px 0;
     }
 
     /* HERO */
-
     .hero {
         height: 100vh;
         min-height: 600px;
     }
 
     /* ABOUT US */
-
     .aboutUs {
         height: 70vh;
         min-height: 550px;
@@ -706,7 +1026,6 @@
     }
 
     /* PROJECT */
-
     .projectContainer {
         margin-top: 50px;
     }
@@ -730,7 +1049,6 @@
     }
 
     /* CLIENT LOGO */
-
     .clientLogo {
         height: 30vh;
         min-height: 200px;
@@ -741,18 +1059,16 @@
     }
 
     /* CONTACT */
-
     .contact {
         height: 40vh;
         min-height: 250px;
     }
 
     /* FOOTER */
-
     .footerContainer {
         padding: 40px 0;
     }
-    
+
     .copyright {
         padding: 30px 0;
     }
